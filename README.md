@@ -8,7 +8,7 @@ Para baixar e instalar o projeto você precisa executar a sequência de comandos
 
 ```bash
 $ git clone https://github.com/ionicbrasil/crud-restful.git
-$ cd crud-restful
+$ cd crud-restful-ionic3
 $ npm install
 ```
 
