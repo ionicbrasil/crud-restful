@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
+import 'rxjs/add/operator/map';
 
 @Injectable()
 export class ApiService {
@@ -12,11 +13,11 @@ export class ApiService {
 
 	public get(endpoint : string, query ?: any) {
 	
-		let params = new URLSearchParams();
+		let params = new HttpParams();
 		for (let key in query)
-			params.append(key.toString(), query[key]);
+			params.set(key.toString(), query[key]);
 
-		return this.http.get(this.url + endpoint + '/', { params: params });
+		return this.http.get(this.url + endpoint + '/', {params: params});
 	}
 
 	public post(endpoint : string, data : any) {

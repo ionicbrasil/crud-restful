@@ -1,8 +1,8 @@
 {
-  "name": "ExemploProjeto",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "CRUD RESTful",
+  "version": "1.0.0",
+  "author": "Ionic Brasil",
+  "homepage": "http://ionicbrasil.com/",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -34,5 +34,5 @@
     "@ionic/app-scripts": "3.0.0",
     "typescript": "2.3.4"
   },
-  "description": "An Ionic project"
+  "description": "Projeto base para CRUDs utilizando RESTful, sendo consumido por uma API local."
 }
