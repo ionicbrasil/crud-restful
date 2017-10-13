@@ -1,5 +1,7 @@
 Projeto de código livre desenvolvido por [Ionic Brasil](http://ionicbrasil.com/).
 
+Base para CRUDs utilizando RESTful, sendo consumido por uma API local.
+
 ## Como testar este projeto
 
 Para baixar e instalar o projeto você precisa executar a sequência de comandos a seguir.
